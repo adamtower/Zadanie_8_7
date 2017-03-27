@@ -5,7 +5,7 @@ var allNames = femaleNames.concat(maleNames);
 var newName = prompt ('podaj nowe imię');
 
 if (allNames.indexOf(newName) === -1) {
-  var x = allNames.push(newName);
+  allNames.push(newName);
   alert (allNames);
   //console.log (allNames);
 } else {
